@@ -1,0 +1,101 @@
+.tto-dashboard {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #e1dde6, #ffffff);
+    padding: 40px 20px;
+    min-height: 100vh;
+    color: #4b006e;
+}
+
+.tto-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.tto-grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 40px 20px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center
+}
+
+.tto-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(160, 99, 245, 0.2);
+    padding: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(109, 40, 217, 0.2);
+}
+
+.tto-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #d8b4fe;
+}
+
+.tto-card h2 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.tto-card p {
+    margin-top: 6px;
+    color: #444;
+}
+
+.tto-status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 999px;
+}
+
+.tto-status.pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.tto-status.approved {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.tto-button {
+    margin-top: 16px;
+    width: 100%;
+    background-color: #7e22ce;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tto-button:hover {
+    background-color: #6b21a8;
+}
+.about-footer {
+    background-color: #0e4194;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

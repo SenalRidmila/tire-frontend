@@ -1,0 +1,52 @@
+.request-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+.request-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.request-form input.error-input,
+.request-form textarea.error-input {
+    border: 1px solid red;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 3px;
+}
+
+.request-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.request-form button:hover {
+    background-color: #0056b3;
+}
