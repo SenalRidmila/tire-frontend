@@ -24,8 +24,6 @@ function RequestForm() {
   });
 
   const [errors, setErrors] = useState({});
-<<<<<<< HEAD
-=======
   const [crudData, setCrudData] = useState(null); // Changed initial state
   const [isLoadingCrudData, setIsLoadingCrudData] = useState(false);
   const [crudDataError, setCrudDataError] = useState(null);
@@ -41,7 +39,6 @@ function RequestForm() {
     const { name, value } = e.target;
     setEditingItemData(prev => ({ ...prev, [name]: value }));
   };
->>>>>>> 3439c07 (Crud Table)
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -119,17 +116,6 @@ function RequestForm() {
     return Object.keys(newErrors).length === 0;
   };
 
-<<<<<<< HEAD
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      console.log('Form data:', formData);
-      alert('Form submitted successfully!');
-      // You can now send data to Spring Boot backend here
-    }
-  };
-
-=======
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validate()) {
@@ -262,7 +248,6 @@ function RequestForm() {
     setIsProcessingItemAction(false);
   };
 
->>>>>>> 3439c07 (Crud Table)
   return (
     <form className="request-form" onSubmit={handleSubmit}>
       <h2>TIRE REQUEST FORM</h2>
@@ -339,9 +324,6 @@ function RequestForm() {
         ))}
       </div>
 
-<<<<<<< HEAD
-      <button type="submit">Send</button>
-=======
       <button type="submit" disabled={isSubmitting}>
         {isSubmitting ? 'Submitting...' : 'Send'}
       </button>
@@ -550,7 +532,6 @@ function RequestForm() {
           <p>No submission details to display. Submit the form to see details here.</p>
         )}
       </div>
->>>>>>> 3439c07 (Crud Table)
     </form>
   );
 }
