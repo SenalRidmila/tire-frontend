@@ -1,24 +1,43 @@
 .request-form {
     max-width: 600px;
     margin: auto;
+<<<<<<< HEAD
     padding: 20px;
     background: #f4f4f4;
     border-radius: 10px;
+=======
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+>>>>>>> 3439c07 (Crud Table)
 }
 
 .request-form h2 {
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 20px;
 }
 
 .form-group {
     margin-bottom: 15px;
+=======
+    color: #0e4194;
+    margin-bottom: 20px;
+}
+
+.request-form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+>>>>>>> 3439c07 (Crud Table)
 }
 
 .request-form input,
 .request-form select,
 .request-form textarea {
     width: 100%;
+<<<<<<< HEAD
     padding: 8px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -49,4 +68,26 @@
 
 .request-form button:hover {
     background-color: #0056b3;
+=======
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.request-form button {
+    margin-top: 20px;
+    background-color: #0e4194;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.request-form input[type="file"] {
+    margin-top: 10px;
+>>>>>>> 3439c07 (Crud Table)
 }

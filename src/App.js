@@ -7,8 +7,11 @@ import RequestForm from './components/RequestForm';
 import About from './components/About';
 import Contact from './components/Contact';
 import ViewProfile from './components/ViewProfile';
+<<<<<<< HEAD
 import TTODashboard from './components/tto/TTODashboard';
 import ManagerDashboard from './components/manager/ManagerDashboard';
+=======
+>>>>>>> 3439c07 (Crud Table)
 
 function App() {
   return (
@@ -21,8 +24,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/view-profile" element={<ViewProfile />} />
+<<<<<<< HEAD
         <Route path="/tto-dashboard" element={<TTODashboard />} />
         <Route path="/manager-dashboard" element={<ManagerDashboard />} />
+=======
+>>>>>>> 3439c07 (Crud Table)
       </Routes>
     </Router>
   );
